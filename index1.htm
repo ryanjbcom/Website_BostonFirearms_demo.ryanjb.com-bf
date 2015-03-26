@@ -45,10 +45,10 @@
         <!-- Thumbnail Style End -->
         <!-- Thumbnail Style End -->
 
-    <!-- Thumbnail Style End -->
 
 
 
+    <!-- Icon styles is you are using them-->
  <style>
         .share-icon {
             display: inline-block;
@@ -384,10 +384,138 @@
             }
         }
     </style>
+    
+    
+    <!-- custom css-->
+    <style>
+    #grad1 {
+    
+    background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #002648, #00BFFF, #002648); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #002648, #00BFFF, #002648); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #002648, #00BFFF, #002648); /* Standard syntax (must be last)*/
+	}
+	
+.navbar-custom {
+    background-color: #b00000;
+    border-color: #8f0000;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e30000), to(#b00000));
+    background-image: -webkit-linear-gradient(top, #e30000, 0%, #b00000, 100%);
+    background-image: -moz-linear-gradient(top, #e30000 0%, #b00000 100%);
+    background-image: linear-gradient(to bottom, #e30000 0%, #b00000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe30000', endColorstr='#ffb00000', GradientType=0);
+    }
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #8f0000;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #8f0000;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #8f0000;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#8f0000), to(#c20000));
+  background-image: -webkit-linear-gradient(top, #8f0000, 0%, #c20000, 100%);
+  background-image: -moz-linear-gradient(top, #8f0000 0%, #c20000 100%);
+  background-image: linear-gradient(to bottom, #8f0000 0%, #c20000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8f0000', endColorstr='#ffc20000', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #8c0000;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #8f0000;
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #8f0000;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
+}
+
+
+
+    </style>
     <!-- Thumbnail Style End -->
-        <!-- Thumbnail Style End -->
-            <!-- Thumbnail Style End -->
-                <!-- Thumbnail Style End -->
+
 
 
 
@@ -399,6 +527,10 @@
   <body>
 
 
+   <!-- call the background color -->
+   <div id="grad1">
+   
+   
     <!-- NAVBAR
     ================================================== -->
     <style>
@@ -428,17 +560,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
     <!-- Fixed navbar code -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -450,7 +573,7 @@
           
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav" style="font-weight: bold;"><br /><br />
+          <ul class="nav navbar-nav" style="font-weight: bold; font-size: 14pt;"><br /><br />
             <li><a href="#">TRAINING</a></li>
             <li><a href="#about">FACILITY</a></li>
             <li><a href="#about">COURSES</a></li>
@@ -601,14 +724,15 @@
 	
 	
 	<div id="greybar">
-	</div>
+	</div> 
 	
+	<br />
 	<div id="circles">
         <div align="center">
         <a href=""><img src="images/circle_train.png" border="0" class="circles"></a>
         <a href=""><img border="0" src="images/circle_courses.png" class="circles"></a>
         <a href="" target="_blank"><img border="0" src="images/circle_range.png" class="circles"></a><br>
-           
+          
        
             </div>
         </div>
@@ -622,47 +746,54 @@
       	<tr align="center">
         <TD>Get A Mass Firearms License</TD>
         <TD>One Day Course</TD>
-        <TD>1</TD>
+        <TD>Learn To Shoot</TD>
         </TR>
         <tr align="center">
     	<TD>Classes held 7 days a week</TD>
         <TD>Exlusive at Boston Firearms</TD>
-        <TD>5</TD>
+        <TD>Private Shooting Range</TD>
         </TR>
         <tr align="center">
         <TD>Live Fire Training</TD>
         <TD>Carry in 39 States</TD>
-        <TD>10</TD>
+        <TD>Range Qualifications</TD>
         </TR>
         <tr align="center">
         <TD>Boston / Brookline Prep Test</TD>
         <TD>Massachusetts LTC</TD>
-        <TD>10</TD>
+        <TD>Non Member lane rental</TD>
         </TR>
         <tr align="center">
         <TD>Guests Attend for Free</TD>
         <TD>Apply For States: ME, NH, CT, MA, UT, FL</TD>
-        <TD>10</TD>
+        <TD>Minutes from Boston</TD>
         </TR>
         <tr align="center">
         <TD>Small Dedicated Classes</TD>
         <TD>Utah Concealed Firearms Permit</TD>
-        <TD>10</TD>
+        <TD>Krav Maga/Self-Defense</TD>
         </TR>
         <tr align="center">
         <TD>Application Assistance/Student cd</TD>
         <TD>Non-Resident Florida CCW</TD>
-        <TD>10</TD>
+        <TD>Simulation Shoot House</TD>
         </TR>
         <tr align="center">
         <TD>100 % Hands On Training</TD>
         <TD>Have MA LTC? Take The Utah/FL Course</TD>
-        <TD>10</TD>
+        <TD>Free Parking & T Accessible</TD>
         </TR>
         </table>
         </div>
     	</div>
     	</div>
+
+
+
+
+
+
+
 
 
 
@@ -716,7 +847,8 @@ Gift certificates are availaible for all of our classes Click Here
 	<br />
 	<!-- end container -->
 
-
+	<!-- end the background color -->
+        </div>
 
 
 	<!-- start 3rd containter -->
