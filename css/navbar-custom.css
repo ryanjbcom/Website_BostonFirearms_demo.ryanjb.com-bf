@@ -3,20 +3,16 @@
  * ====================================================================================================================*/
 
 
-
-
-
-
 .navbar-custom {
-    background-color: #b00000;
-    border-color: #8f0000;
-background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Safari 5.1 to 6.0 */
+  background-color: #0088cc;
+  border-color: #0072ab;
+  background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #002648, #00BFFF, #002648); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #002648, #00BFFF, #002648); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #002648, #00BFFF, #002648); /* Standard syntax (must be last)*/
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe30000', endColorstr='#ffb00000', GradientType=0);
-    }
+}
 .navbar-custom .navbar-brand {
   color: #ffffff;
 }
@@ -29,28 +25,28 @@ background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Saf
   color: #ffffff;
 }
 .navbar-custom .navbar-nav > li:last-child > a {
-  border-right: 1px solid #8f0000;
+  border-right: 1px solid #0072ab;
 }
 .navbar-custom .navbar-nav > li > a {
   color: #ffffff;
-  border-left: 1px solid #8f0000;
+  border-left: 1px solid #0072ab;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #d00000;
   background-color: transparent;
 }
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #8f0000;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#8f0000), to(#c20000));
-  background-image: -webkit-linear-gradient(top, #8f0000, 0%, #c20000, 100%);
-  background-image: -moz-linear-gradient(top, #8f0000 0%, #c20000 100%);
-  background-image: linear-gradient(to bottom, #8f0000 0%, #c20000 100%);
+  color: #d00000;
+  background-color: #0072ab;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#0072ab), to(#0094de));
+  background-image: -webkit-linear-gradient(top, #0072ab, 0%, #0094de, 100%);
+  background-image: -moz-linear-gradient(top, #0072ab 0%, #0094de 100%);
+  background-image: linear-gradient(to bottom, #0072ab 0%, #0094de 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8f0000', endColorstr='#ffc20000', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0072ab', endColorstr='#ff0094de', GradientType=0);
 }
 .navbar-custom .navbar-nav > .disabled > a,
 .navbar-custom .navbar-nav > .disabled > a:hover,
@@ -70,24 +66,24 @@ background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Saf
 }
 .navbar-custom .navbar-collapse,
 .navbar-custom .navbar-form {
-  border-color: #8c0000;
+  border-color: #0070a8;
 }
 .navbar-custom .navbar-nav > .dropdown > a:hover .caret,
 .navbar-custom .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-top-color: #d00000;
+  border-bottom-color: #d00000;
 }
 .navbar-custom .navbar-nav > .open > a,
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
-  background-color: #8f0000;
-  color: #ffffff;
+  background-color: #0072ab;
+  color: #d00000;
 }
 .navbar-custom .navbar-nav > .open > a .caret,
 .navbar-custom .navbar-nav > .open > a:hover .caret,
 .navbar-custom .navbar-nav > .open > a:focus .caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-top-color: #d00000;
+  border-bottom-color: #d00000;
 }
 .navbar-custom .navbar-nav > .dropdown > a .caret {
   border-top-color: #ffffff;
@@ -99,14 +95,14 @@ background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Saf
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
+    color: #d00000;
     background-color: transparent;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #8f0000;
+    color: #d00000;
+    background-color: #0072ab;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -119,5 +115,5 @@ background: -webkit-linear-gradient(left, #002648, #00BFFF, #002648); /* For Saf
   color: #ffffff;
 }
 .navbar-custom .navbar-link:hover {
-  color: #ffffff;
+  color: #d00000;
 }
